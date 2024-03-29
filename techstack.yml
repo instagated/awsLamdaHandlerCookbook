@@ -1,0 +1,293 @@
+repo_name: instagated/awsLamdaHandlerCookbook
+report_id: 8aa167fb235b3a0ef1ffbb208ce27e77
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-29T20:24:53+00:00'
+requested_by: instagated
+provider: github
+branch: main
+detected_tools_count: 21
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/instagated/awsLamdaHandlerCookbook
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/instagated/awsLamdaHandlerCookbook
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/instagated/awsLamdaHandlerCookbook/blob/main/.github/workflows/codeql-analysis.yml.yml
+  detection_source: ".github/workflows/codeql-analysis.yml.yml"
+  last_updated_by: INSTAGATOR
+  last_updated_on: 2024-03-29 09:24:54.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/instagated/awsLamdaHandlerCookbook/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: INSTAGATOR
+  last_updated_on: 2024-03-29 09:24:54.000000000 Z
+- name: GitPython
+  description: Python Git Library
+  package_url: https://pypi.org/project/GitPython
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19867/default_bd86f80ade48cfe191d5781a2efa0e66fa22163a.png
+  detection_source_url: https://github.com/instagated/awsLamdaHandlerCookbook/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: INSTAGATOR
+  last_updated_on: 2024-03-29 09:24:54.000000000 Z
+- name: boto3
+  description: The AWS SDK for Python
+  package_url: https://pypi.org/project/boto3
+  version: 1.34.54
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19840/default_1c41e593803157c668b26f27387160254f0f5371.png
+  detection_source_url: https://github.com/instagated/awsLamdaHandlerCookbook/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: INSTAGATOR
+  last_updated_on: 2024-03-29 09:24:54.000000000 Z
+- name: cachetools
+  description: Extensible memoizing collections and decorators
+  package_url: https://pypi.org/project/cachetools
+  version: 5.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19950/default_611a1328f69b729fac0a7b8bf87ff04e8ce35e17.png
+  detection_source_url: https://github.com/instagated/awsLamdaHandlerCookbook/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: INSTAGATOR
+  last_updated_on: 2024-03-29 09:24:54.000000000 Z
+- name: email-validator
+  description: A robust email syntax and deliverability validation library for Python
+    2.x/3.x
+  package_url: https://pypi.org/project/email-validator
+  version: 2.1.1
+  license: CC0-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/instagated/awsLamdaHandlerCookbook/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: INSTAGATOR
+  last_updated_on: 2024-03-29 09:24:54.000000000 Z
+- name: mkdocs-material
+  description: A Material Design theme for MkDocs
+  package_url: https://pypi.org/project/mkdocs-material
+  version: 9.5.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/instagated/awsLamdaHandlerCookbook/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: INSTAGATOR
+  last_updated_on: 2024-03-29 09:24:54.000000000 Z
+- name: mypy
+  description: Optional static typing for Python
+  package_url: https://pypi.org/project/mypy
+  version: 1.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20219/default_d4dd0466552a9776ca8535b869e22a3362790c94.png
+  detection_source_url: https://github.com/instagated/awsLamdaHandlerCookbook/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: INSTAGATOR
+  last_updated_on: 2024-03-29 09:24:54.000000000 Z
+- name: pre-commit
+  description: A framework for managing and maintaining multi-language pre-commit
+    hooks
+  package_url: https://pypi.org/project/pre-commit
+  version: 3.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20560/default_d975dcf643a054134f39226d51d4a5fea9320efe.png
+  detection_source_url: https://github.com/instagated/awsLamdaHandlerCookbook/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: INSTAGATOR
+  last_updated_on: 2024-03-29 09:24:54.000000000 Z
+- name: pycodestyle
+  description: Python style guide checker
+  package_url: https://pypi.org/project/pycodestyle
+  version: 2.11.1
+  license: Saxpath
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20145/default_a55249b25c76872ebbee6b173a63c5fce36136f9.png
+  detection_source_url: https://github.com/instagated/awsLamdaHandlerCookbook/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: INSTAGATOR
+  last_updated_on: 2024-03-29 09:24:54.000000000 Z
+- name: pydantic
+  description: Data validation and settings management using python 3.6 type hinting
+  package_url: https://pypi.org/project/pydantic
+  version: 2.6.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20022/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
+  detection_source_url: https://github.com/instagated/awsLamdaHandlerCookbook/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: INSTAGATOR
+  last_updated_on: 2024-03-29 09:24:54.000000000 Z
+- name: pytest
+  description: 'Pytest: simple powerful testing with Python'
+  package_url: https://pypi.org/project/pytest
+  version: 8.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19843/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/instagated/awsLamdaHandlerCookbook/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: INSTAGATOR
+  last_updated_on: 2024-03-29 09:24:54.000000000 Z
+- name: pytest-cov
+  description: Pytest plugin for measuring coverage
+  package_url: https://pypi.org/project/pytest-cov
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19958/default_e91a78767854f0fa80aab2f13d1a25b15ca2d278.png
+  detection_source_url: https://github.com/instagated/awsLamdaHandlerCookbook/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: INSTAGATOR
+  last_updated_on: 2024-03-29 09:24:54.000000000 Z
+- name: pytest-html
+  description: Pytest plugin for generating HTML reports
+  package_url: https://pypi.org/project/pytest-html
+  version: 4.1.1
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20576/default_aff8a60c16402a05dbc985d09c9196f58586c514.png
+  detection_source_url: https://github.com/instagated/awsLamdaHandlerCookbook/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: INSTAGATOR
+  last_updated_on: 2024-03-29 09:24:54.000000000 Z
+- name: pytest-mock
+  description: Thin-wrapper around the mock package for easier use with py.test
+  package_url: https://pypi.org/project/pytest-mock
+  version: 3.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20244/default_fc0d35561378e21d3174def06634c96515818661.png
+  detection_source_url: https://github.com/instagated/awsLamdaHandlerCookbook/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: INSTAGATOR
+  last_updated_on: 2024-03-29 09:24:54.000000000 Z
+- name: python-dateutil
+  description: Extensions to the standard Python datetime module
+  package_url: https://pypi.org/project/python-dateutil
+  license: NRL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19833/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/instagated/awsLamdaHandlerCookbook/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: INSTAGATOR
+  last_updated_on: 2024-03-29 09:24:54.000000000 Z
+- name: python-dotenv
+  description: Add .env support to your django/flask apps in development and deployments
+  package_url: https://pypi.org/project/python-dotenv
+  version: 1.0.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20095/default_3141eabecdd8efa55de73a33c43f2ac0d5bbf954.png
+  detection_source_url: https://github.com/instagated/awsLamdaHandlerCookbook/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: INSTAGATOR
+  last_updated_on: 2024-03-29 09:24:54.000000000 Z
+- name: radon
+  description: Code Metrics in Python
+  package_url: https://pypi.org/project/radon
+  version: 6.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/instagated/awsLamdaHandlerCookbook/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: INSTAGATOR
+  last_updated_on: 2024-03-29 09:24:54.000000000 Z
+- name: toml
+  description: Python Library for Tom's Obvious, Minimal Language
+  package_url: https://pypi.org/project/toml
+  version: 0.10.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19912/default_bc82f0b22ca8fd942e21c317967f4ab61f43eb2c.png
+  detection_source_url: https://github.com/instagated/awsLamdaHandlerCookbook/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: INSTAGATOR
+  last_updated_on: 2024-03-29 09:24:54.000000000 Z
